@@ -1,0 +1,2 @@
+# Agency service scope (fictional demo policy)
+Our ecommerce package includes a responsive storefront, product catalogue, checkout integration and basic inventory configuration. Clients supply product data. Payment gateway merchant accounts and transaction fees are the client's responsibility. We can integrate Razorpay, Stripe or PayPal subject to regional availability. Custom integrations require separate scope approval. Final scope is agreed by the agency manager, never by the assistant.

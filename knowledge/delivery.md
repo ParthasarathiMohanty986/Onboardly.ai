@@ -1,0 +1,2 @@
+# Pricing and delivery (fictional demo policy)
+There is no fixed published price or guaranteed turnaround time. An agency manager confirms price and launch date after reviewing requirements, integrations, product volume and asset readiness. Client budgets and dates are requests, not commitments. Requirements changes after approval must be reviewed separately. The assistant cannot approve discounts, sign contracts or take payment.
