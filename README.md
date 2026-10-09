@@ -1,3 +1,4 @@
+
 # AI Client Onboarding · Onboardly
 
 A Django application using **real local LLM inference, dense document embeddings, semantic retrieval and model-selected tool calls**. Clients develop a brief through chat; a manager approves the exact task proposal before Django creates tasks.
@@ -88,3 +89,14 @@ Useful files: `onboarding/ai.py` (agent loop/tools), `providers.py` (Ollama HTTP
 ## Before production
 
 Use a supported patched Django version, secret management, HTTPS, DEBUG off, rate limits, bounded background jobs, stronger model evaluations, and a production database. Remove demo users, review trace retention, add upload controls if supporting files, and implement tenancy before hosting multiple agencies. Local databases and credentials are excluded from Git.
+
+# Onboardly.ai
+
+AI-powered client onboarding built with Django, local LLMs, semantic document retrieval, and agentic tool workflows with human approval.
+
+
+AI Client Onboarding is an AI-powered platform that helps agencies turn a client’s rough project idea into structured requirements and a task proposal ready for approval.
+It uses a real local LLM to understand client messages, gather missing details, and generate responses. Document embeddings and semantic retrieval let the assistant answer service-related questions using agency policies. Through model-driven tool calls, it updates draft requirements and proposes project-specific tasks.
+Before tasks are created, an agency manager must review and approve the exact proposal. The platform also provides client authentication, conversation history, source passages, and tool-call logs.
+Tech stack: Python, Django, HTML, CSS, JavaScript, SQLite, Ollama, Qwen3, and EmbeddingGemma.
+
